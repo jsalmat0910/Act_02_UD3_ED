@@ -58,7 +58,11 @@ public class CCuenta {
     {
         return saldo;
     }
-
+    /**
+    * 
+    * @param cantidad Cantidad de dinero en cuenta.
+    * @throws Exception El dinero que se resta a la cantidad.
+     */
     
     public void ingresar(double cantidad) throws Exception
     {
