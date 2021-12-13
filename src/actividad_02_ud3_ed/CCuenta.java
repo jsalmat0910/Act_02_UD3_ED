@@ -25,9 +25,9 @@ public class CCuenta {
    /**
     * 
     * @param nom Nombre del titular de la cuenta
-    * @param cue
-    * @param sal
-    * @param tipo 
+    * @param cue Numero de cuenta
+    * @param sal Cantidad de dinero en la cuenta
+    * @param tipo Indica el tipo de cuenta
     */
     public CCuenta (String nom, String cue, double sal, double tipo)
     {
@@ -38,13 +38,16 @@ public class CCuenta {
     }
   /**
    * 
-   * @param nom 
+   * @param nom Nombre del titular de la cuenta
    */
     public void asignarNombre(String nom)
     {
         nombre=nom;
     }
-   
+   /**
+    * 
+    * @return Nombre del titular de la cuenta.
+    */
     public String obtenerNombre()
     {
         return nombre;
